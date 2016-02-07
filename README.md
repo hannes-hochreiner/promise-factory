@@ -1,6 +1,14 @@
 # promise-factory
 A wrapper for creating promises in JavaScript based on native ES2015 promises.
 
+## Installation
+
+I wrote this module mainly for personal use.
+As such, it is not in npm.
+However, it can be installed directly from github.
+
+    npm i https://github.com/hannes-hochreiner/promise-factory.git --save
+
 ## Usage
 
 ### ES5
