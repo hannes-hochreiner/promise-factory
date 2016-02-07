@@ -1,0 +1,33 @@
+{
+  "name": "promise-factory",
+  "version": "1.0.0",
+  "description": "A wrapper for creating promises in JavaScript based on native ES2015 promises.",
+  "main": "bld/index.js",
+  "scripts": {
+    "build": "babel --presets=es2015 --out-dir bld src",
+    "test": "npm run build && babel --presets=es2015 --out-dir bld-test src-test && nodeunit bld-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannes-hochreiner/promise-factory.git"
+  },
+  "keywords": [
+    "promise",
+    "factory"
+  ],
+  "author": "Hannes Hochreiner <hannes@hochreiner.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hannes-hochreiner/promise-factory/issues"
+  },
+  "homepage": "https://github.com/hannes-hochreiner/promise-factory#readme",
+  "jshintConfig": {
+    "esversion": 6
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "nodeunit": "^0.9.1"
+  }
+}
