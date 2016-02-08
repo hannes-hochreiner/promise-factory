@@ -1,3 +1,5 @@
+[ ![Codeship Status for hannes-hochreiner/promise-factory](https://codeship.com/projects/c3adb8d0-b0c9-0133-c021-3674ea8aa855/status?branch=master)](https://codeship.com/projects/132810)
+
 # promise-factory
 A wrapper for creating promises in JavaScript based on native ES2015 promises.
 
@@ -29,7 +31,3 @@ However, it can be installed directly from github.
     }).then((res) => {
       console.log(res);
     })
-
-## CI
-
-Codeship is used for CI.
