@@ -29,3 +29,7 @@ However, it can be installed directly from github.
     }).then((res) => {
       console.log(res);
     })
+
+## CI
+
+Codeship is used for CI.
