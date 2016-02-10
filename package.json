@@ -5,7 +5,7 @@
   "main": "bld/index.js",
   "scripts": {
     "build": "babel --presets=es2015 --out-dir bld src",
-    "test": "npm run build && babel --presets=es2015 --out-dir bld-test src-test && nodeunit bld-test"
+    "test": "npm run build && babel --presets=es2015 --out-dir bld-test src-test && jasmine JASMINE_CONFIG_PATH=jasmine.json"
   },
   "repository": {
     "type": "git",
@@ -28,9 +28,9 @@
     "babel-cli": "^6.4.5",
     "babel-core": "^6.4.5",
     "babel-preset-es2015": "^6.3.13",
-    "nodeunit": "^0.9.1"
+    "jasmine": "^2.4.1"
   },
-  "engines" : {
-    "node" : ">=5.5.0"
+  "engines": {
+    "node": ">=5.5.0"
   }
 }
