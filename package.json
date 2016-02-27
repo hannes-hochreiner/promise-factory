@@ -1,6 +1,6 @@
 {
   "name": "promise-factory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper for creating promises in JavaScript based on native ES2015 promises.",
   "main": "bld/index.js",
   "scripts": {
