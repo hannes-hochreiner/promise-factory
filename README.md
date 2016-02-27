@@ -1,4 +1,4 @@
-[ ![Codeship Status for hannes-hochreiner/promise-factory](https://codeship.com/projects/c3adb8d0-b0c9-0133-c021-3674ea8aa855/status?branch=master)](https://codeship.com/projects/132810)
+[![Build Status](https://travis-ci.org/hannes-hochreiner/promise-factory.svg?branch=master)](https://travis-ci.org/hannes-hochreiner/promise-factory)
 
 # promise-factory
 A wrapper for creating promises in JavaScript based on native ES2015 promises.
