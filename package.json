@@ -5,7 +5,10 @@
   "main": "bld/index.js",
   "scripts": {
     "build": "babel --presets=es2015 --out-dir bld src",
-    "test": "npm run build && babel --presets=es2015 --out-dir bld-test src-test && jasmine JASMINE_CONFIG_PATH=jasmine.json"
+    "test": "npm run build && babel --presets=es2015 --out-dir bld-test src-test && jasmine JASMINE_CONFIG_PATH=jasmine.json",
+    "preversion": "npm test",
+    "version": "npm run build && git add -A bld",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
