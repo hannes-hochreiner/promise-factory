@@ -1,3 +1,11 @@
 language: node_js
 node_js:
-  - "5.5.0"
+- 5.5.0
+deploy:
+  provider: npm
+  email: hannes@hochreiner.net
+  api_key:
+    secure: kNbQ7ws0DkmSl9SFoFxAqt+6oE4y/fAwf9Bqy/vyYuzuxgPdXMbXWe+HcADnT4oyf8BiKw5Fh5vQb9hv4Pz8/ww62nN+AMhyTAOrp6TjsGwC5QuWBMoCrHhsaslHUfsjJmrAWFlCamI/k4WBmXZNVrhvuRXJkKpwey0+RZVHPL7r+0Y2MH4ONxfnYCqoU/Pz825gd1RNXvegQpzNyIaTAuAPfn5ih7GTD3WKhflieACNIUgvf1Q9v9jnUItY30ep2L6/EM6j4JxST4AkAlArjSFGCQ0SDM13xAD/YmZspXQhpTEUCQaCPcLVlxVScwPL1zWBKGOAmltmW2JROYoC7H9LzPyAwijmfUYcvUcchfaBI9RHEe5h/OI74bxIkLIsklZfcxDNaIZf6FnVagkRnxBOSXRqeQYc56TcWSIMQY2s4zxsp3sOsfD0i3rmxets5BQKymuvFWjc/n57vB/pu892SXsi/2/MZOt7ONC4/6nnDJj2KG6kHj6AYvSH2t3kZTlsNVjDSfyNCQjjGvTzVDiuHvrjn3qgFWw8mA4OgVeQPty0boE2qA8jtGUYYDaJtqBmyrEzYufuiltf0yPwI13pROIVURQsT3Y6EJiQAL4mJIEKJPC8MPkAUZhe194El2O9jcsVH9dPRNUFf64F9Y9Kzk9PnLDsksKOijJjXk4=
+  on:
+    tags: true
+    repo: hannes-hochreiner/promise-factory
